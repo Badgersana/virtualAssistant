@@ -1,0 +1,1 @@
+commandsList = ['weather']
