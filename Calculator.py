@@ -50,6 +50,7 @@ def numberParser(request):
 def start(request):
     a, b = numberParser(request)
 
+    # addition
     if commandsList[0] in request:
         output = add(a, b)
 

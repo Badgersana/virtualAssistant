@@ -25,5 +25,5 @@ if __name__ == '__main__':
 
             elif any(command in request for command in Headlines.commandsList):
                 output = Headlines.getHeadlines()
-        print(output)
+        print(output)  # temp
         Speaker.speak(output)
