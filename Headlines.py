@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 # to extend - give the user the ability to select a headline and provide the link to the article
+commandsList = ['news', 'headlines']
 
 """Contains all logic for retrieving headlines"""
 
-commandsList = ['news', 'headlines']
 url = "https://www.bbc.co.uk/news"
 
 # gets html content of webpage @url and stores it in page
