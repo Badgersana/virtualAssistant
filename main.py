@@ -9,6 +9,8 @@ NAME = 'Alpha'
 commandsList = ['+', '-', 'x', '/', '÷', 'news', 'weather', '']
 REPLY = 'yes Jacob?'
 
+"""Acts as controller for virtual assistant"""
+
 if __name__ == '__main__':
     running = True
     while running:
@@ -25,6 +27,9 @@ if __name__ == '__main__':
 
             elif any(command in request for command in Headlines.commandsList):
                 output = Headlines.getHeadlines()
+
+            elif any(command in request for command in WeatherFinder.commandsList):
+                output = WeatherFinder.getWeather()
 
         print(output)  # temp
         Speaker.speak(output)
