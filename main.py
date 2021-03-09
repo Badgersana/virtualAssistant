@@ -6,7 +6,7 @@ import Speaker
 import Listener
 
 NAME = 'Alpha'
-commandsList = ['+', '-', 'x', '/', '÷', 'news', 'weather', '']
+commandsList = ['+', '-', 'x', '/', '÷', 'news', 'weather', 'week']
 REPLY = 'yes Jacob?'
 
 """Acts as controller for virtual assistant"""
